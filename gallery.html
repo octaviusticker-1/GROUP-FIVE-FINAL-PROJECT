@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | Group Five</title>
+
+    <meta name="description"
+        content="Explore Group Five's photographs, activities and projects.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-mark">G5</span>
+                <span>GROUP FIVE</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- GALLERY HERO -->
+        <section class="page-hero">
+
+            <div class="container">
+
+                <span class="section-label">OUR MEMORIES</span>
+
+                <h1>Group Five <span>Gallery</span></h1>
+
+                <p>
+                    A collection of our creativity, teamwork,
+                    academic activities and digital projects.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALLERY INTRODUCTION -->
+        <section class="gallery-intro section-padding">
+
+            <div class="container">
+
+                <span class="section-label">EXPLORE OUR JOURNEY</span>
+
+                <h2>Moments Worth Remembering</h2>
+
+                <p>
+                    Every project represents an opportunity to learn,
+                    collaborate and grow. Explore the visual story
+                    of Group Five.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALLERY GRID -->
+        <section class="gallery-section">
+
+            <div class="container">
+
+                <div class="gallery-grid">
+
+                    <!-- IMAGE 1 -->
+                    <article class="gallery-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=900"
+                            alt="Team collaboration">
+
+                        <div class="gallery-overlay">
+                            <h3>Teamwork</h3>
+                            <p>Working together toward one vision.</p>
+                        </div>
+
+                        <button class="gallery-view"
+                            aria-label="View teamwork photograph">
+                            <span>+</span>
+                        </button>
+
+                    </article>
+
+
+                    <!-- IMAGE 2 -->
+                    <article class="gallery-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900"
+                            alt="Technology and computer work">
+
+                        <div class="gallery-overlay">
+                            <h3>Technology</h3>
+                            <p>Exploring digital possibilities.</p>
+                        </div>
+
+                        <button class="gallery-view"
+                            aria-label="View technology photograph">
+                            <span>+</span>
+                        </button>
+
+                    </article>
+
+
+                    <!-- IMAGE 3 -->
+                    <article class="gallery-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900"
+                            alt="Students working together">
+
+                        <div class="gallery-overlay">
+                            <h3>Collaboration</h3>
+                            <p>Sharing ideas and knowledge.</p>
+                        </div>
+
+                        <button class="gallery-view"
+                            aria-label="View collaboration photograph">
+                            <span>+</span>
+                        </button>
+
+                    </article>
+
+
+                    <!-- IMAGE 4 -->
+                    <article class="gallery-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900"
+                            alt="Website development">
+
+                        <div class="gallery-overlay">
+                            <h3>Web Development</h3>
+                            <p>Building modern digital experiences.</p>
+                        </div>
+
+                        <button class="gallery-view"
+                            aria-label="View web development photograph">
+                            <span>+</span>
+                        </button>
+
+                    </article>
+
+
+                    <!-- IMAGE 5 -->
+                    <article class="gallery-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=900"
+                            alt="Group academic discussion">
+
+                        <div class="gallery-overlay">
+                            <h3>Learning Together</h3>
+                            <p>Growing through shared experiences.</p>
+                        </div>
+
+                        <button class="gallery-view"
+                            aria-label="View academic discussion photograph">
+                            <span>+</span>
+                        </button>
+
+                    </article>
+
+
+                    <!-- IMAGE 6 -->
+                    <article class="gallery-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=900"
+                            alt="Team working on technology">
+
+                        <div class="gallery-overlay">
+                            <h3>Innovation</h3>
+                            <p>Turning creative ideas into reality.</p>
+                        </div>
+
+                        <button class="gallery-view"
+                            aria-label="View innovation photograph">
+                            <span>+</span>
+                        </button>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- IMAGE MODAL -->
+        <div class="gallery-modal" id="galleryModal"
+            aria-hidden="true">
+
+            <button class="gallery-close" id="closeGallery"
+                aria-label="Close image">
+                &times;
+            </button>
+
+            <img src="" alt="Enlarged gallery photograph"
+                id="galleryModalImage">
+
+            <p id="galleryModalCaption"></p>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 Group Five | ART 205 Final Project.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
